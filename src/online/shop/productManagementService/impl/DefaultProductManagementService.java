@@ -13,8 +13,6 @@ public class DefaultProductManagementService implements ProductManagementService
 	private static ArrayList<Product> products;
 
 	{
-//		products = new ArrayList<Product>();
-		// DefaultProduct(int id, String productName, String categoryName, double price)
 		products = new ArrayList<>(Arrays.asList(
 				new DefaultProduct(1, "Hardwood Oak Suffolk Internal Door", "Doors", 109.99),
 				new DefaultProduct(2, "Oregon Cottage Interior Oak Door", "Doors", 179.99),
